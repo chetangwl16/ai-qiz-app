@@ -22,7 +22,7 @@ const textareaStyle = {
   border: `1px solid ${colors.borderGreyDark}`,
   fontSize: "16px",
   outline: "none",
-  resize: "none",
+  resize: "none" as const,
 };
 
 const buttonStyle = {
